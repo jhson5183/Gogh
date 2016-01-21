@@ -1,4 +1,4 @@
-package com.jhson.imageload.imageloader;
+package com.jhson.gogh;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpVersion;

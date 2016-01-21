@@ -1,4 +1,4 @@
-package com.jhson.imageload.imageloader;
+package com.jhson.gogh;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -83,7 +83,6 @@ public class Gogh {
 			Log.d(TAG, "request is comp by mem cache");
 			runnable = new Runnable() {@Override public void run() {}};
 			registRequest(viewHashCode, runnable);
-			unRegistRequest(viewHashCode, runnable, true);
 			sImageHandler.post(request.new ImageRunnable(mBitmap));
 		} else {
 			runnable = new CacheTask(mContext, uri, viewHashCode, request);

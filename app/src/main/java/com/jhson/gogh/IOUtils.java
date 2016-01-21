@@ -1,4 +1,4 @@
-package com.jhson.imageload.imageloader;
+package com.jhson.gogh;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

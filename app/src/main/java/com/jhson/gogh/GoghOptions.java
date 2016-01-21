@@ -1,4 +1,4 @@
-package com.jhson.imageload.imageloader;
+package com.jhson.gogh;
 
 public class GoghOptions {
 
